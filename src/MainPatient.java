@@ -1,6 +1,8 @@
+import TreatmentRequest.TreatmentRequest;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class MainPatient {
     public static void main(String args[]){
         PatientList line=new PatientList();
         line.addPatient(new Patient(23456,"birce",2,20));
@@ -15,4 +17,6 @@ public class Main {
         line.findPatient(34568);
        line.printList();
         }
+
+
     }
