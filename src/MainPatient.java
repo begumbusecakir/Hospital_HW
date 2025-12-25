@@ -16,6 +16,16 @@ public class MainPatient {
         line.removePatient(34567);
         line.findPatient(34568);
        line.printList();
+
+
+        //print the last version
+        System.out.println("new line");
+        line.printList();
+        System.out.println("----------------------------");
+
+
+
+
         }
 
 
